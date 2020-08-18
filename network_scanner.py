@@ -104,4 +104,4 @@ def display_results(clients):
 t = threading.Thread(target=animate)
 t.start()
 options = get_arguments()
-display_results(scan(options.target))
+print("The results are as follows: ",display_results(scan(options.target))
